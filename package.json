@@ -1,0 +1,17 @@
+{
+  "name": "harel-local-server",
+  "version": "1.0.0",
+  "description": "Harel Local Mock Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "faker": "5.1.0",
+    "cors": "^2.8.5"
+  }
+}
