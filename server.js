@@ -1,7 +1,7 @@
 const express = require('express');
 const faker = require('faker');
 const cors = require('cors');
-const port = 8081;
+const port = process.env.PORT || 8081;
 
 const initData = () => [...Array(100).keys()].map(id => ({
   id,
